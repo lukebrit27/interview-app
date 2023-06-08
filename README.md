@@ -3,7 +3,7 @@
 The Interview App is a command-line application that conducts interviews by asking a series of questions from a Markdown file. It provides flexibility in specifying the number of questions per category and allows customization of the Markdown file to suit your interview needs.
 
 ## Background
-I created this app as a fun way to learn C++ while also creating a pratical a tool I could use to pratice for interviews. Hope you find it interesting!
+I created this app as a fun way to learn C++ while also creating a pratical a tool I could use to practice for interviews. Hope you find it interesting!
 
 ## Features
 
