@@ -2,6 +2,9 @@
 
 The Interview App is a command-line application that conducts interviews by asking a series of questions from a Markdown file. It provides flexibility in specifying the number of questions per category and allows customization of the Markdown file to suit your interview needs.
 
+## Background
+I created this app as a fun way to learn C++ while also creating a pratical a tool I could use to pratice for interviews. Hope you find it interesting!
+
 ## Features
 
 - Loads interview questions from a Markdown file.
@@ -46,7 +49,7 @@ To use the Interview App, follow these steps:
    Example:
 
    ```shell
-   ./interview-app -f data/InterviewQuestions.md -c kdb 5 -c general 10
+   ./bin/interview-app -f data/InterviewQuestions.md -c kdb 5 -c general 10
    ```
 
    This command will load questions from the `data/InterviewQuestions.md` file and ask 5 questions from the "kdb" category and 10 questions from the "general" category.
@@ -60,19 +63,24 @@ The Markdown file used by the Interview App should follow a specific format. Her
 ```markdown
 # Category 1
 * Question 1
+   * Answer 1 
 * Question 2
+   * Answer 2 
 
 # Category 2
 * Question 3
+   * Answer 3  
 * Question 4
+   * Answer 4    
 * Question 5
+   * Answer 5
 ```
 
-Each category should be denoted by a single `#` character followed by the category name. Each question within a category should start with a `*` character.
+Each category should be denoted by a single `#` character followed by the category name. Each question within a category should start with a `*` character. Each answer within a question should be indented by at least 1 space. Answers can be multiple lines as long they are indented.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvement, please let me know.
 
 ## License
 
